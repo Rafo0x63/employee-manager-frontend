@@ -1,0 +1,59 @@
+.container-fluid {
+    padding-top: 20px;
+}
+
+.employee-card {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 400px;
+  }
+
+  .card-text {
+    text-align: center;
+  }
+
+  .card {
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-body {
+    padding: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img.card-img-top {
+    border-radius: 8px 0 0 8px; 
+    width: 50px;
+  }
+
+  .buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .btn-info {
+    background-color: #17a2b8; 
+    color: #fff; 
+  }
+
+  .btn-info:hover {
+    background-color: #138496; 
+  }
+
+  .btn-danger {
+    background-color: #dc3545; 
+    color: #fff; 
+  }
+
+  .btn-danger:hover {
+    background-color: #bd2130; 
+  }
